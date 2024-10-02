@@ -1,0 +1,128 @@
+/* Footer Container */
+.footer-container {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Footer Content */
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Adjust layout of sections */
+    padding: 20px 50px;
+    align-items: flex-start; /* Align top of sections */
+}
+
+/* Left Section: Logo */
+.footer-left {
+    display: flex;
+    align-items: center; /* Align logo and text in a row */
+    width: 40%;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center; /* Align logo and text in the same row */
+}
+
+.footer-logo-image {
+    width: 60px;
+    margin-right: 15px;
+}
+
+.footer-logo-text h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    color: #fff;
+}
+
+.footer-logo-text p {
+    font-size: 14px;
+    margin: 5px 0 0; /* Place the text right below the header */
+}
+
+/* Center Section: Useful Links */
+.footer-center {
+    width: 30%;
+}
+
+.footer-center h3 {
+    font-size: 18px;
+    color: white;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.footer-center h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 30%;
+    height: 2px;
+    background-color: white;
+}
+
+.footer-center ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-center ul li {
+    margin-bottom: 12px;
+}
+
+.footer-center ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-center ul li a:hover {
+    color: #ccc;
+}
+
+/* Right Section: Contact Us */
+.footer-right {
+    width: 30%;
+}
+
+.footer-right h3 {
+    font-size: 18px;
+    color: white;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.footer-right h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 30%;
+    height: 2px;
+    background-color: white;
+}
+
+.footer-right p {
+    font-size: 14px;
+}
+
+/* Bottom Section */
+.footer-bottom {
+    border-top: 1px solid #555;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    display: inline-block;
+    margin: 0 15px; /* Spacing between the items */
+    font-size: 12px;
+}
+
+.footer-bottom p:last-child {
+    margin-top: 10px;
+}

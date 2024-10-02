@@ -1,0 +1,26 @@
+.ssc-banner {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .ssc-banner-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .marquee-container {
+    background-color: #441015; /* Set the background color to brown */
+    padding: 5px;
+    color: white;
+    font-size: 13px;
+  }
+  
+  .marquee-text {
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  
+  div a{
+    color: #3b191d;
+  }

@@ -1,0 +1,17 @@
+.calendar-list {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .calendar-date {
+    background-color: #a03521 !important; /* Custom brown color */
+  }
+  
+  .calendar-item {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .calendar-item:hover {
+    background-color: #f7f3ef;
+  }
+  

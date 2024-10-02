@@ -1,0 +1,58 @@
+/* Carousel container */
+.carousel {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding: 40px 0;
+    box-sizing: border-box;
+  }
+  
+  .carousel-container {
+    display: flex;
+    transition: transform 0.5s ease;
+    transform: translateX(calc(-100% * var(--current-slide)));
+  }
+  
+  /* Card styling */
+  .carousel-card {
+    flex: 0 0 33.33%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-card.active img {
+    transform: scale(1.05);
+  }
+  
+  /* Dots for navigation */
+  .carousel-dots {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #008080;
+  }
+  
